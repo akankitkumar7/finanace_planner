@@ -169,7 +169,7 @@ class MainScreenState extends State<MainScreen> {
               width: double.infinity,
               decoration: const BoxDecoration(
                 borderRadius: BorderRadius.only(topLeft: Radius.circular(35),topRight: Radius.circular(35)),
-                color: Colors.white,
+                color: Color.fromRGBO(232, 232, 232, 1),
               ),
               child: Column(
                 children: [

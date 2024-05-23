@@ -26,6 +26,7 @@ class _StatisticsPageState extends State<StatisticsPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor:const Color.fromRGBO(232, 232, 232, 1),
       drawer: const DrawerPage(),
       appBar: AppBar(
         backgroundColor: Colors.grey.shade700,

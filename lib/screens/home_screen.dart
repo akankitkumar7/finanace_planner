@@ -51,8 +51,8 @@ class _HomeScreenState extends State<HomeScreen> {
         items:  [
           BottomNavigationBarItem(icon: Icon(Icons.home_filled,color: _page==0? Colors.grey.shade700 : Colors.blue,)),
           BottomNavigationBarItem(icon: Icon(Icons.bar_chart,color: _page==1? Colors.grey.shade700 : Colors.blue,)),
-          BottomNavigationBarItem(icon: Icon(Icons.wallet_rounded,color: _page==2? Colors.grey.shade700 : Colors.blue,)),
-          BottomNavigationBarItem(icon: Icon(Icons.person_outline,color: _page==3? Colors.grey.shade700 : Colors.blue,)),
+          BottomNavigationBarItem(icon: Icon(Icons.dashboard,color: _page==2? Colors.grey.shade700 : Colors.blue,)),
+          BottomNavigationBarItem(icon: Icon(Icons.person,color: _page==3? Colors.grey.shade700 : Colors.blue,)),
         ],
         onTap: navigationTapped,
         currentIndex: _page,

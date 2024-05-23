@@ -6,6 +6,6 @@ import 'package:flutter/material.dart';
 List<Widget> homeScreenItems = [
   const MainScreen(),
   const  StatisticsPage(),
-  const WalletPage(),
+  const DashBoardPage(),
   const ProfilePage(),
 ];
