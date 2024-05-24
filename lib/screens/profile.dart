@@ -82,7 +82,7 @@ class ProfilePage extends StatelessWidget {
                         color: Colors.white
                     ),),
                   ],
-                )
+                ),
               ],
             ),
             ),
